@@ -20,7 +20,7 @@ const Navigation = () => {
   return (
     <div className='fixed inset-0 flex items-center justify-center'>
       <div
-        className='relative flex items-center justify-center'
+        className='relative flex items-center justify-center animate-spin-slow hover:pause'
         style={{
           width: `${Math.min(windowSize.width, windowSize.height)}px`,
           height: `${Math.min(windowSize.width, windowSize.height)}px`,

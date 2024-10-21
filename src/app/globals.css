@@ -12,4 +12,7 @@
 }
 
 @layer utilities {
+  .pause{
+    animation-play-state: paused;
+  }
 }
