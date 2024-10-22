@@ -18,9 +18,9 @@ const Navigation = () => {
   }, [])
 
   return (
-    <div className='fixed inset-0 flex items-center justify-center'>
+    <div className='fixed inset-0 flex items-center justify-center z-50'>
       <div
-        className='relative flex items-center justify-center animate-spin-slow hover:pause'
+        className='relative flex items-center justify-center animate-spin-slow'
         style={{
           width: `${Math.min(windowSize.width, windowSize.height)}px`,
           height: `${Math.min(windowSize.width, windowSize.height)}px`,
